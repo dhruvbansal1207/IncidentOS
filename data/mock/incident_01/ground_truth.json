@@ -1,0 +1,14 @@
+{
+  "incident_id": "incident_01",
+  "root_cause_service": "payment",
+  "root_cause_type": "bad_deployment",
+  "root_cause_event": "payment v2.1 deployed at 2026-10-05T10:30:00Z",
+  "affected_services": [
+    "payment",
+    "database",
+    "order"
+  ],
+  "unaffected_services": [
+    "user"
+  ]
+}

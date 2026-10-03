@@ -1,0 +1,32 @@
+[
+  {
+    "trace_id": "t103",
+    "span_id": "s1",
+    "parent_span_id": null,
+    "service": "order",
+    "operation": "create_order",
+    "start_ts": "2026-10-05T10:33:18Z",
+    "duration_ms": 5100,
+    "status": "error"
+  },
+  {
+    "trace_id": "t103",
+    "span_id": "s2",
+    "parent_span_id": "s1",
+    "service": "payment",
+    "operation": "charge",
+    "start_ts": "2026-10-05T10:33:19Z",
+    "duration_ms": 5000,
+    "status": "error"
+  },
+  {
+    "trace_id": "t103",
+    "span_id": "s3",
+    "parent_span_id": "s2",
+    "service": "database",
+    "operation": "insert_payment",
+    "start_ts": "2026-10-05T10:33:19Z",
+    "duration_ms": 5000,
+    "status": "error"
+  }
+]

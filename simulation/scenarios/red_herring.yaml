@@ -1,0 +1,4 @@
+# Owner: Person 1 (Backend + Observability)
+# Purpose: Scenario: unrelated deployment near the real fault.
+
+# TODO: define fault type, target service, start/stop time, expected root cause

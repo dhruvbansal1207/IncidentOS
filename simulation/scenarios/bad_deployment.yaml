@@ -1,0 +1,4 @@
+# Owner: Person 1 (Backend + Observability)
+# Purpose: Scenario: bad payment deployment causing cascade.
+
+# TODO: define fault type, target service, start/stop time, expected root cause

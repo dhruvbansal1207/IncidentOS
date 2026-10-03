@@ -1,0 +1,4 @@
+# Owner: Person 1 (Backend + Observability)
+# Purpose: Scenario: database slowdown with no deployment.
+
+# TODO: define fault type, target service, start/stop time, expected root cause

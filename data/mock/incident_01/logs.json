@@ -1,0 +1,65 @@
+[
+  {
+    "ts": "2026-10-05T10:29:50Z",
+    "service": "payment",
+    "level": "INFO",
+    "message": "charge succeeded",
+    "trace_id": "t001"
+  },
+  {
+    "ts": "2026-10-05T10:30:00Z",
+    "service": "payment",
+    "level": "INFO",
+    "message": "deployed version v2.1",
+    "trace_id": null
+  },
+  {
+    "ts": "2026-10-05T10:32:10Z",
+    "service": "payment",
+    "level": "ERROR",
+    "message": "db connection timeout",
+    "trace_id": "t101"
+  },
+  {
+    "ts": "2026-10-05T10:32:40Z",
+    "service": "payment",
+    "level": "ERROR",
+    "message": "db connection timeout",
+    "trace_id": "t102"
+  },
+  {
+    "ts": "2026-10-05T10:33:05Z",
+    "service": "database",
+    "level": "WARN",
+    "message": "connection pool exhausted",
+    "trace_id": null
+  },
+  {
+    "ts": "2026-10-05T10:33:20Z",
+    "service": "payment",
+    "level": "ERROR",
+    "message": "charge failed: db timeout",
+    "trace_id": "t103"
+  },
+  {
+    "ts": "2026-10-05T10:35:00Z",
+    "service": "order",
+    "level": "ERROR",
+    "message": "payment call failed: 500",
+    "trace_id": "t103"
+  },
+  {
+    "ts": "2026-10-05T10:35:30Z",
+    "service": "order",
+    "level": "ERROR",
+    "message": "payment call failed: 500",
+    "trace_id": "t104"
+  },
+  {
+    "ts": "2026-10-05T10:34:00Z",
+    "service": "user",
+    "level": "INFO",
+    "message": "profile fetched",
+    "trace_id": null
+  }
+]

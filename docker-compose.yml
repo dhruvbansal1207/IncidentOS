@@ -1,0 +1,3 @@
+# Person 1 fills this in as services are built.
+# Planned: order_service, payment_service, user_service, database, collector.
+services: {}
