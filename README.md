@@ -43,3 +43,7 @@ pip install -r requirements.txt
 ```
 
 Person 2 can start immediately using the mock data in `data/mock/incident_01/`.
+
+## C++ starter
+
+A clean C++17 starter lives in [`cpp-starter/IncidentOS/`](cpp-starter/IncidentOS/). It builds independently with CMake and Apple Clang, without third-party C++ dependencies. See its README for build/run instructions and the first coding task.

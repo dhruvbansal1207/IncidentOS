@@ -1,0 +1,2 @@
+#include "incidentos/analysis/rca.hpp"
+namespace incidentos { Finding suggest_root_cause(const std::vector<Event>& events) { for(const auto& e: events) if(e.kind==EventKind::Deployment) return {"root_cause", "Deployment preceded the incident: "+e.message, e.service, 0.4}; for(const auto& e: events) if(e.kind==EventKind::Log && e.message.find("error")!=std::string::npos) return {"root_cause", "Error log may be related: "+e.message, e.service, 0.3}; return {"root_cause", "Insufficient evidence; collect more telemetry", "", 0.0}; } }

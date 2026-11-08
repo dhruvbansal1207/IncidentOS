@@ -1,0 +1,2 @@
+#include "incidentos/simulation/simulator.hpp"
+namespace incidentos { std::vector<Event> simulate_latency_spike() { return {{"evt-1","2026-11-08T10:00:00Z","checkout",EventKind::Metric,"request_latency_ms",42,""},{"evt-2","2026-11-08T10:01:00Z","checkout",EventKind::Metric,"request_latency_ms",240,""},{"evt-3","2026-11-08T09:59:30Z","checkout",EventKind::Deployment,"release",0,"v1.2.0 deployed"},{"evt-4","2026-11-08T10:01:05Z","payments",EventKind::Log,"error",0,"error: upstream timeout"}}; } }
