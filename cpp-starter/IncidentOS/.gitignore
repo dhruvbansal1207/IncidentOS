@@ -1,5 +1,6 @@
-/build/
+/build*/
 /cmake-build-*/
+/output/
 .DS_Store
 *.o
 *.a
